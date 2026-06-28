@@ -1,6 +1,6 @@
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
-  version = "20.8.4"
+
 
   name = "jenkins-vpc"
   cidr = var.vpc_cidr
